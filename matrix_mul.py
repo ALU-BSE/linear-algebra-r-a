@@ -14,6 +14,7 @@ Array2 = [200, 100]
 Ans = []
 # (300*200 + 500*100) as an example calculation
 
+#The completed multiplication logic
 for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Prices[0])):
