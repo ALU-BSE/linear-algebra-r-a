@@ -1,5 +1,5 @@
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 
 # Load data
 #data = pd.read_csv('path/to/data')
@@ -24,4 +24,4 @@ for i in range(len(Prices)):
 print(Ans)
 
 NAMES:-RURANGWA Prince
--IRAKOZE Amandine
+      -IRAKOZE Amandine
