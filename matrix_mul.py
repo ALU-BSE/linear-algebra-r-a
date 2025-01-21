@@ -17,8 +17,8 @@ Ans = []
 for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Prices[0])):
-       row_sum += Prices[i][j] * Array2[j] 
-    Ans.append(row_sum)
+       row_sum += Prices[i][j] * Array2[j] #This line calculates the total cost for all items in the ith row of the Prices list and accumulates it in row_sum.
+    Ans.append(row_sum) #This adds the total cost for "i"th row to the "Ans" list so that it can be accessed later.
     pass
 
 
